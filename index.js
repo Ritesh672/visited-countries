@@ -1,5 +1,5 @@
 import express from "express";
-import bodyParser from "body-parser";
+import bodyparser from "body-parser";
 import pg from "pg";
 
 const app = express();
@@ -9,7 +9,7 @@ const db = new pg.Client({
   user: "postgres",
   host: "localhost",
   database: "world",
-  password: "123456",
+  password: "Ritesh222@",
   port: 5432,
 });
 db.connect();
